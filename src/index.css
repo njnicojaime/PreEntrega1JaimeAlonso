@@ -1,0 +1,45 @@
+/* Nav */
+
+li .nav-link{    
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+li .nav-link:hover{
+    color: #a900ff;
+}
+
+li .dropdown-item{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+
+.dropdown-menu:hover{
+    --bs-dropdown-link-hover-bg: #a900ff;       
+    --bs-dropdown-link-active-bg: #a900ff;    
+}
+
+
+.btnCarrito {
+    border: none;
+    color: white;
+    font-size: 22px;    
+    background-color: #a900ff;   
+    border-radius: 0.3rem;
+    padding: 10px 15px;
+    transition: all .3s;
+    box-shadow: 2px 6px 3px 3px rgba(0, 2, 0.4, 0.6); 
+}
+
+.btnCarrito:hover {
+    cursor: pointer;
+    color: #a900ff;
+    background-color: white ;
+
+}
+.btnCarrito:focus {
+    outline: none;
+}
+
